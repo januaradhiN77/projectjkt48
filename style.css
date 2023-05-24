@@ -578,3 +578,20 @@ li.dropdown {
   color: red;
   font-size: medium;
 }
+.background{
+  border-radius: 15px;
+  width: 355px;
+  align-items: center;
+  height: 700px;
+  background: #FFB1B1;
+}
+.lirik{
+  display: flex;
+}
+.lirik h1{
+  font-family: 'Poppins' serif;
+  font-size: large;
+  font-weight: 550;
+  margin-left: 30px;
+  margin-top: 25px;
+{
