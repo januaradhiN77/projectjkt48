@@ -579,10 +579,12 @@ li.dropdown {
   font-size: medium;
 }
 .background{
+  margin-top: 240px;
+  margin-left: -10px;
   border-radius: 15px;
-  width: 355px;
+  width: 385px;
   align-items: center;
-  height: 700px;
+  height: 1010px;
   background: #FFB1B1;
 }
 .lirik{
@@ -590,8 +592,8 @@ li.dropdown {
 }
 .lirik h1{
   font-family: 'Poppins' serif;
-  font-size: large;
-  font-weight: 550;
-  margin-left: 30px;
-  margin-top: 25px;
-{
+  font-size: medium;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-top: 65px;
+}
