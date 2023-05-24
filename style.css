@@ -525,6 +525,12 @@ li.dropdown {
   width: 130px;
   height: 3px;
 }
+.contentlist .garis3{
+  margin-top: 1px;
+  background:#444449;
+  width: 275px;
+  height: 3px;
+}
 .contentlist .garis2{
   margin-top: 1px;
   background:#444449;
