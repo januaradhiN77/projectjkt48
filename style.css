@@ -513,7 +513,7 @@ li.dropdown {
   font-family: sans serif;
 }
 .contentlist{
-  margin: 0 20px 0 20px;
+  margin: 0 5px 0 5px;
 }
 .contentlist h1{
   font-size: 24px; 
@@ -521,13 +521,13 @@ li.dropdown {
 }
 .contentlist .garis{
   margin-top: 1px;
-  background:#FF0202;
+  background:#444449;
   width: 130px;
   height: 3px;
 }
 .contentlist .garis2{
   margin-top: 1px;
-  background:#FF0202;
+  background:#444449;
   width: 70px;
   height: 3px;
 }
