@@ -623,6 +623,15 @@ li.dropdown {
   height: 1500px;
   background: #FFC2C2;
 }
+.backgroundeureka{
+  margin-top: 240px;
+  margin-left: -10px;
+  border-radius: 15px;
+  width: 385px;
+  align-items: center;
+  height: 1000px;
+  background: #FFC2C2;
+}
 .lirik{
   display: flex;
 }
