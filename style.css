@@ -585,7 +585,7 @@ li.dropdown {
   width: 385px;
   align-items: center;
   height: 1300px;
-  background: #FFB1B1;
+  background: #FFC2C2;
 }
 .backgroundflying{
   margin-top: 240px;
@@ -594,7 +594,7 @@ li.dropdown {
   width: 385px;
   align-items: center;
   height: 2350px;
-  background: #FFB1B1;
+  background: #FFC2C2;
 }
 .backgroundhissatsu{
   margin-top: 240px;
@@ -603,7 +603,25 @@ li.dropdown {
   width: 385px;
   align-items: center;
   height: 1650px;
-  background: #FFB1B1;
+  background: #FFC2C2;
+}
+.backgroundjiwarud{
+  margin-top: 240px;
+  margin-left: -10px;
+  border-radius: 15px;
+  width: 385px;
+  align-items: center;
+  height: 2050px;
+  background: #FFC2C2;
+}
+.backgroundaitakatta{
+  margin-top: 240px;
+  margin-left: -10px;
+  border-radius: 15px;
+  width: 385px;
+  align-items: center;
+  height: 1500px;
+  background: #FFC2C2;
 }
 .lirik{
   display: flex;
