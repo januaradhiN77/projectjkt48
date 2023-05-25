@@ -596,6 +596,15 @@ li.dropdown {
   height: 2350px;
   background: #FFB1B1;
 }
+.backgroundhissatsu{
+  margin-top: 240px;
+  margin-left: -10px;
+  border-radius: 15px;
+  width: 385px;
+  align-items: center;
+  height: 1650px;
+  background: #FFB1B1;
+}
 .lirik{
   display: flex;
 }
