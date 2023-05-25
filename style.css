@@ -578,13 +578,22 @@ li.dropdown {
   color: red;
   font-size: medium;
 }
-.background{
+.backgroundsv{
   margin-top: 240px;
   margin-left: -10px;
   border-radius: 15px;
   width: 385px;
   align-items: center;
-  height: 1010px;
+  height: 1100px;
+  background: #FFB1B1;
+}
+.backgroundflying{
+  margin-top: 240px;
+  margin-left: -10px;
+  border-radius: 15px;
+  width: 385px;
+  align-items: center;
+  height: 2500px;
   background: #FFB1B1;
 }
 .lirik{
