@@ -215,6 +215,10 @@ li.dropdown {
   text-align: center;
   text-transform: uppercase;
 }
+.centertext img{
+  width: 250px;
+  text-align: center;
+}
 .centertext span{
   font-size: 1rem;
   font-weight: 600;
