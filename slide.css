@@ -8,7 +8,7 @@
   min-height: 20vh;
   display: flex;
   flex-wrap: wrap;
-  background: #808080;
+  background: #FFA0A0;
   gap: 1rem;
 }
 .slider{
@@ -51,7 +51,7 @@
 }
 .manual-btn{
   border: 2px solid;
-  color: #fff;
+  color: #FFFFFF;
   padding: 5px;
   border-radius: 10px;
   transition: 0,5s;

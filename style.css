@@ -38,7 +38,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #fff;
+  background: #FFFFFF;
   box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
   padding: 15px 10%;
   transition: 0.2s;
@@ -286,6 +286,40 @@ li.dropdown {
   color: #fa8383;
   font-size: small;
 }
+.shop-container5{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 5rem;
+  align-items: center;
+  margin-left: 15px;
+}
+.shop-container5 .box5{
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  border-radius: 0.5rem;
+}
+.shop-container5 .box5 .box-img5{
+  width: 90px;
+  height: 90px;
+  margin-top: -100px;
+}
+.shop-container5 .box5 .box-img5 img{
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 70%;
+  border: 2px solid #FFFFFF;
+}
+.shop-container5 .box5 h2{
+  color: #FFFFFF;
+  font-size: small;
+}
 .shop-container3{
   display: flex;
   flex-wrap: wrap;
@@ -514,7 +548,7 @@ li.dropdown {
 *{
   margin: 0;
   padding: 0;
-  font-family: sans serif;
+  font-family: sans-serif;
 }
 .contentlist{
   margin: 0 0px 0 0px;
@@ -525,10 +559,10 @@ li.dropdown {
   text-align: center;
   margin-top: 20px;
 }
-.contentlist .garis{
+.garis{
   margin-top: 1px;
-  background:#444449;
-  width: 130px;
+  background:#FF4F4F;
+  width: 395px;
   height: 3px;
 }
 .contentlist .garis3{
@@ -550,6 +584,7 @@ li.dropdown {
 }
 .list::-webkit-scrollbar-thumb{
   background: #FF0000;
+  border-radius: 15px;
 }
 .list{
   display: flex;
@@ -573,6 +608,59 @@ li.dropdown {
   height: 150px;
   padding: 10px;
   border-radius:20px; 
+}
+.barlist{
+  margin: 0 0px 0 0px;
+  background: #FFA0A0;
+  height: 700px;
+  width: 395px;
+  margin-left: 0px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.listbar::-webkit-scrollbar{
+  height: 5px;
+  border-radius: 20px;
+  background: transparent;
+}
+.listbar::-webkit-scrollbar-thumb{
+  background: #FF3F3FCC;
+  border-radius: 15px;
+}
+.listbarbg{
+  background: #FFFFFF;
+  width: 395px;
+  height: 700px;
+  margin-top: 20px;
+  margin-left: 0px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.listbar{
+  display: flex;
+  overflow: auto;
+  background: #FFFFFF;
+  scroll-behavior: smooth;
+  padding-left: 1px;
+  width: 386px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 1px;
+}
+.listbar .boxlistbar{
+  margin: auto;
+  width: 150px;
+  text-align: center;
+  margin-top: 20px;
+}
+.listbar .boxlistbar img{
+  width: 130px;
+  height: 115px;
+  padding: 15px;
+  margin-left: -7px;
 }
 .list .boxlist h3{
   color: red;
@@ -636,6 +724,15 @@ li.dropdown {
   height: 1000px;
   background: #FFC2C2;
 }
+.backgroundbenangsari{
+  margin-top: 240px;
+  margin-left: -10px;
+  border-radius: 15px;
+  width: 385px;
+  align-items: center;
+  height: 1720px;
+  background: #FFC2C2;
+}
 .lirik{
   display: flex;
 }
@@ -645,4 +742,40 @@ li.dropdown {
   font-weight: 700;
   margin-left: 5px;
   margin-top: 65px;
+}
+.birthday{
+  background: #FF9696;
+  margin-top: -105px;
+}
+.mclist .boxlistmc{
+  box-shadow: rgba(64, 60, 67, 0.3) 0px 1px 2px 0px, rgba(64, 60, 67, 0.15) 0px 2px 6px 2px;
+  margin: auto;
+  border-radius: 10px;
+  width: 230px;
+  text-align: center;
+  height: 250px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+.mclist::-webkit-scrollbar{
+  height: 4px;
+  border-radius: 10px;
+  background: transparent;
+}
+.mclist::-webkit-scrollbar-thumb{
+  background: #FF0000;
+  border-radius: 15px;
+}
+.mclist{
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+  padding-left: 2px;
+}
+.mclist .boxlistmc img{
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border-radius:20px; 
 }
