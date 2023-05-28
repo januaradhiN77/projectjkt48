@@ -796,12 +796,13 @@ li.dropdown {
 }
 .notify-alert-box p{
         float: right;
+        margin-right: 50px;
         margin-top: 5px;
 }
 .notify-alert-box span{
         float: right;
-        margin-top: -70px;
-        margin-right: 190px;
+        margin-top: -80px;
+        margin-right: 205px;
 }
 .buttons{
 	text-align: right;
