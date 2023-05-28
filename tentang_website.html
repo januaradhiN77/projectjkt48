@@ -26,6 +26,29 @@
 <br>
 
 <body>
+        
+          <script>
+     function showNotification() {
+      const notification = new Notification("New Message From Adhi!", {
+           body: "Halo ini hanya tester Notifikasi"
+                        });
+                }
+            console.log(Notification.permission);
+                
+         if(Notification.permission === "granted") {
+              showNotification();
+                        
+           } else if (Notification.permission !== "denied") {
+          Notification.requestPermission().then(permission => {
+             if (permission === "granted") {
+                  showNotification();
+                                     
+      
+                                }
+                        });
+                }
+                
+        </script>
   <section class="information" id="information">
       <div class="centertext">
         <h1>TENTANG WEBSITE</h1>
