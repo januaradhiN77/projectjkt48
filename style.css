@@ -560,8 +560,7 @@ li.dropdown {
   margin-top: 20px;
 }
 .garis{
-  margin-top: 1px;
-  background:#FF4F4F;
+  background:#FF1919;
   width: 395px;
   height: 3px;
 }
@@ -781,22 +780,29 @@ li.dropdown {
 }
 .notify-alert-box{
 	width: 400px;
-	position: fixed;
-	left: 50%;
-	margin-left: -200px;
+	
+	left: 0%;
+	margin-left: 0px;
 	top: 0; /*top: -100%;*/
 	padding: 20px;
 	z-index: 100000;
 	background:#fff;
 	color: #333;
-	transition: all 1s ease-in-out;
+	
 }
 .notify-alert-box img{
-	width: 50px;
-	float: left;
-	margin-right: 10px;
+	width: 70px;
+	float: center;
 }
-
+.notify-alert-box p{
+        float: right;
+        margin-top: 5px;
+}
+.notify-alert-box span{
+        float: right;
+        margin-top: -70px;
+        margin-right: 190px;
+}
 .buttons{
 	text-align: right;
 	margin-top: 100;
