@@ -804,16 +804,47 @@ li.dropdown {
         margin-top: -80px;
         margin-right: 205px;
 }
-.buttons{
-	text-align: right;
-	margin-top: 100;
+.photocard::-webkit-scrollbar{
+        height: 4px;
+        border-radius: 10px;
+        background: transparent;
 }
-.buttons button{
-	background:#FF5A37;
-	color: #fff;
-	border:0;
-	margin-top: 20px;
-	padding: 8px 30px;
-	font-size: 18px;
-	cursor: pointer;
+.photocard::-webkit-scrollbar-thumb{
+        background: #FF0000;
+        border-radius: 15px;
+}
+.boxphotocard img{
+        width: 150px;
+        height: 210px;
+        padding: 10px;
+        
+        border-radius: 15px;
+}
+.photocard{
+  display: flex;
+  overflow: auto;
+  background: #FFFFFF;
+  scroll-behavior: smooth;
+  padding-left: 1px;
+  width: 386px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 1px;
+}
+.photocard .boxphotocard{
+  margin: auto;
+  width: 150px;
+  text-align: center;
+  margin-top: 20px;
+}
+.cardtxt img{
+     width: 130px;
+     padding: 2px;
+     margin-left: -7px;
+}
+.cardtxt{
+   display: flex;
+   overflow: auto;
+   padding-left: 1px;
+   
 }
