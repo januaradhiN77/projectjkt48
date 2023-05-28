@@ -47,7 +47,7 @@
   height: 10px;
   margin-top: 210px;
   display: flex;
-  margin-left: 130px;
+  margin-left: 110px;
 }
 .manual-btn{
   border: 2px solid;
@@ -79,7 +79,9 @@
 #radio5:checked ~ .first{
   margin-left: -60%;
 }
-
+#radio6:checked ~ .first{
+  margin-left: -80%;
+}
 
 
 /*Slide 2 JKT48TV */
