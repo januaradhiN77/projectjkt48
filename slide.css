@@ -1,87 +1,85 @@
 /* Slide 1 */
 
 
-.bannernews{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 20vh;
-  display: flex;
-  flex-wrap: wrap;
-  background: #FFA0A0;
-  gap: 1rem;
+. bannernews {
+  tampilan : fleksibel;
+  menyelaraskan-item : tengah;
+  justify-content : center;
+  min-tinggi :  20 vh ;
+  tampilan : fleksibel;
+  flex-wrap : bungkus;
+  latar belakang :  # FFA0A0 ;
+  celah :  1 rem ;
 }
-.slider{
-  width: 350px;
-  height: 200px;
-  overflow: hidden;
+. penggeser {
+  lebar :  350 piksel ;
+  tinggi :  200px ; _
+  luapan : tersembunyi;
 }
-.slidernewera{
-  width: 330px;
-  max-width: auto;
-  height: auto;
-  border-radius: 5px;
-  overflow: hidden;
+. slidernewera {
+  lebar :  330 px ;
+  max-width : otomatis;
+  tinggi : otomatis;
+  border-radius :  5 px ;
+  luapan : tersembunyi;
 }
-.slides{
-  width: 520%;
-  height: 520px;
-  display: flex;
+. slide {
+  lebar :  520 % ​​;
+  tinggi :  520px ; _
+  tampilan : fleksibel;
 }
-.slides input{
-  display: none;
+. masukan slide  {
+  tampilan : tidak ada;
 }
-.slide{
-  width: 20%;
-  transition: 1s;
+. geser {
+  lebar :  20 % ;
+  transisi :  1 detik ;
 }
-.slide img{
-  width: 335px;
-  height: 200px;
-  object-position: center;
-  overflow: hidden;
+. geser  img {
+  lebar :  335 px ;
+  tinggi :  200px ; _
+  objek-posisi : pusat;
+  luapan : tersembunyi;
 }
-.navigation-manual{
-  position: absolute;
-  width: 20px;
-  height: 10px;
-  margin-top: 210px;
-  display: flex;
-  margin-left: 110px;
+. navigasi-manual {
+  posisi : absolut;
+  lebar :  20 piksel ;
+  tinggi :  10 piksel ;
+  margin-atas :  210 px ;
+  tampilan : fleksibel;
+  margin-kiri :  130 px ;
 }
-.manual-btn{
-  border: 2px solid;
-  color: #FFFFFF;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 0,5s;
-  cursor: pointer;
+. manual-btn {
+  perbatasan :  2 px padat;
+  warna :  #FFFFFF ; _
+  bantalan :  5px ; _
+  border-radius :  10 px ;
+  transisi :  0 , 5 detik ;
+  kursor : penunjuk;
 }
-.manual-btn:not(:last-child){
-  margin-right: 15px;
+. manual-btn : bukan ( : anak terakhir ){
+  margin-kanan :  15 px ;
 }
-.manual-btn:hover{
-  background: #FF0000;
+. manual-btn : arahkan {
+  latar belakang :  # FF0000 ;
 }
-.manual-btn:not(:hover){
-  background: #fff;
+. manual-btn : bukan ( : arahkan kursor ){
+  latar belakang :  #fff ;
 }
 
-#radio1:checked ~ .first{
-  margin-left: 0;
+# radio1 : diperiksa  ~ . pertama {
+  margin-kiri :  0 ;
 }
-#radio3:checked ~ .first{
-  margin-left: -20%;
+# radio3 : diperiksa  ~ . pertama {
+  margin-kiri :  -20 % ;
 }
-#radio4:checked ~ .first{
-  margin-left: -40%;
+# radio4 : diperiksa  ~ . pertama {
+  margin-kiri :  -40 % ;
 }
-#radio5:checked ~ .first{
-  margin-left: -60%;
+# radio5 : diperiksa  ~ . pertama {
+  margin-kiri :  -60 % ;
 }
-#radio6:checked ~ .first{
-  margin-left: -80%;
-}
+
 
 
 /*Slide 2 JKT48TV */
