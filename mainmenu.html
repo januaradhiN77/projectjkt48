@@ -15,9 +15,60 @@
   <link rel="shorcut icon" href="jkt48_newera_logo.jpg">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  
+   <style> 
+        #loader { 
+            border: 10px solid #FF0C0C; 
+            border-radius: 50%; 
+            border-top: 10px solid #FFFFFF; 
+            width: 50px; 
+            height: 50px; 
+            animation: spin 1s linear infinite; 
+        } 
+         
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+         
+        .center { 
+            position: fixed;
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto; 
+        } 
+    </style> 
+  
+  
+  
+  
 </head>
 
 <body>
+        
+            <div id="loader" class="center"></div> 
+
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                "#loader").style.display = "none"; 
+                document.querySelector( 
+                "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
+        
+        
+        
   <section class="header1" id="header">
     <header>
       <a class="logo"><img src="jkt48_newera_logo.jpg" alt="Jkt48_NewEra_Logo" class="logo"></a>
@@ -72,19 +123,7 @@
 
  <section class="barlist">
      <div class="listbarbg">
-             <br>
-             <h1 style="font-size: x-large; color: red; font-weight: 800; text-align: center;">🎂 Ulang Tahun Hari ini 🎂</h1>
-             
-             <br><hr>
-      <div class="notify-alert-box">
-              <img src="cathleen_nixie.jpg">
-              <p style="font-weight: 700;">Selamat Ulang Tahun Cathleen Nixie🎉</p><br>
-              <span style="font-size: x-small; color: black;">28 Mei 2023 - 08:22</span>
-              
-    
-    <hr>
-              </div>
-              
+
     <h1 style="text-align: center; font-size: medium; font-weight: 700; color: red; font-family: bold; margin-top: 20px;">MENU BAR<br>(Tampilan Layar Saat ini belum responsive)</h1>
        <div class="listbar">
                
@@ -132,8 +171,8 @@
            </div>
       </div>
       
-      <br>
-      <br>
+    
+        <br><br>
                      <h1 style="text-align: center; font-size: large; font-weight: 500; color: #FFFF; margin-top: -20px;">NEXT BIRTHDAY</h1>
        <div class="birthday">
                <div class="shop-container5">
@@ -381,7 +420,7 @@
          
      </div>
      </div>
- </section> 
+ </section>
  
 
   <hr>
@@ -390,18 +429,12 @@
   <br>
   <br>
   <br><br><br><br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br><br><br><br>
-  <br>
+    <br>
   <br>
   <br>
   <br>
   <br><br><br><br>
    
-
   <section class="videovlog" id="videovlog">
     <div class="centertext">
       <span>LIST</span>
@@ -418,12 +451,6 @@
         <input type="radio" name="radio-btn2" id="radio3rek">
         <input type="radio" name="radio-btn2" id="radio4rek">
         <input type="radio" name="radio-btn2" id="radio5rek">
-        <input type="radio" name="radio-btn2" id="radio6rek">
-        <input type="radio" name="radio-btn2" id="radio7rek">
-        <input type="radio" name="radio-btn2" id="radio8rek">
-        <input type="radio" name="radio-btn2" id="radio9rek">
-        <input type="radio" name="radio-btn2" id="radio10rek">
-
 
         <div class="sliderek firstrek">
                 
@@ -462,50 +489,6 @@
                         <span>Sumber Video: JKT48TV (YouTube)</span>
                         </div>
                 
-                <div class="sliderek">
-               <h5>BIKIN SEBLAK COET ALA AA RAFAEL! YUMMM🤤</h5>
-                   <span></span>
-                   <iframe src="https://www.youtube.com/embed/8SL9c6mIj3A?HD=1" frameborder="0" allowfullscreen></iframe><br>
-                   <span>Di Publish Pada Tanggal: 23 Mei 2023</span><br>
-                   <span>Sumber Video: JKT48TV (YouTube)</span>
-           
-           </div>     
-        
-        <div class="sliderek">
-          <h5>FLORA - ISINYA YANG GEMES-GEMES!</h5>
-          <iframe src="https://www.youtube.com/embed/Q5_rsX7tSbA?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 22 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-        <div class="sliderek">
-          <h5>KATANYA WARNET TAPI KOK BISA BALAPAN?!</h5>
-          <iframe src="https://www.youtube.com/embed/YcFEQ33eOFE?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 19 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-          <div class="sliderek">
-          <h5>FENI - FENI YANG DULU BUKANLAH YANG SEKARANG</h5>
-          <iframe src="https://www.youtube.com/embed/XSdIIxNzjUg?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 19 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-        <div class="sliderek">
-          <h5>PERSONAL MEET & GREET</h5>
-          <iframe src="https://www.youtube.com/embed/Kr5JRMU2Wis?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 16 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-        <div class="sliderek">
-          <h5>ZEE - AZIZI ANAK BAWANG?!</h5>
-          <iframe src="https://www.youtube.com/embed/1_KTmH-azeo?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 15 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
     
         <div class="navigation-manual2">
           <label for="radio1rek" class="manual-btn2"></label>
@@ -513,11 +496,7 @@
           <label for="radio3rek" class="manual-btn2"></label>
           <label for="radio4rek" class="manual-btn2"></label>
           <label for="radio5rek" class="manual-btn2"></label>
-          <label for="radio6rek" class="manual-btn2"></label>
-          <label for="radio7rek" class="manual-btn2"></label>
-          <label for="radio8rek" class="manual-btn2"></label>
-          <label for="radio9rek" class="manual-btn2"></label>
-          <label for="radio10rek" class="manual-btn2"></label>
+         
         </div>
       </div>
   </section>

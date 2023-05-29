@@ -846,5 +846,51 @@ li.dropdown {
    display: flex;
    overflow: auto;
    padding-left: 1px;
+}
    
+.livesr::-webkit-scrollbar{
+        height: 4px;
+        border-radius: 10px;
+        background: transparent;
+}
+.livesr::-webkit-scrollbar-thumb{
+        background: transparent;
+        border-radius: 15px;
+}
+.livesr .boxlive img{
+        width: 270px;
+        height: 160px;
+        padding: 10px;
+        border-radius: 20px;
+}
+.livetxt{
+        background: #FF723C;
+        color: #FFFFFF;
+}
+.livetxt h1{
+        font-weight: 600;
+        font-family: bolder;
+        font-size: large;
+        margin-left: 10px;
+}
+.livetxt span{
+        color: #FFFFFFB5;
+        margin-left: 10px;
+}
+.livesr{
+  display: flex;
+  overflow: auto;
+  background: #FF723C;
+  scroll-behavior: smooth;
+  padding-left: 1px;
+  width: 401px;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+.livesr .boxlive{
+  margin: auto;
+  width: 550px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -5px;
 }

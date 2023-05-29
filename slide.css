@@ -126,7 +126,7 @@
   height: 10px;
   margin-top: 340px;
   display: flex;
-  margin-left: 75px;
+  margin-left: 130px;
 }
 .manual-btn2{
   border: 2px solid #000000;
@@ -157,22 +157,6 @@
 #radio5rek:checked ~ .firstrek{
   margin-left: -404%;
 }
-#radio6rek:checked ~ .firstrek{
-  margin-left: -505%;
-}
-#radio7rek:checked ~ .firstrek{
-  margin-left: -606%;
-}
-#radio8rek:checked ~ .firstrek{
-  margin-left: -707%;
-}
-#radio9rek:checked ~ .firstrek{
-  margin-left: -808%;
-}
-#radio10rek:checked ~ .firstrek{
-  margin-left: -909%;
-}
-
 
 
 
