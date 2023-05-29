@@ -41,6 +41,7 @@
   object-position: center;
   overflow: hidden;
   margin-left: 5px;
+  border-radius: 10px;
 }
 .navigation-manual{
   position: absolute;
@@ -65,9 +66,8 @@
   background: #FF0000;
 }
 .manual-btn:not(:hover){
-  background: #fff;
+  background: transparent;
 }
-
 #radio1:checked ~ .first{
   margin-left: 0;
 }
@@ -95,8 +95,7 @@
   margin-left: 110px;
 }
 .navigation-auto div{
-  border: 2px solid;
-  color: #FFFFFF;
+  border: 2px solid #FF0000;
   padding: 5px;
   border-radius: 10px;
   transition: 0,5s;
@@ -105,21 +104,24 @@
 .navigation-auto div:not(:last-child){
   margin-right: 15px;
 } 
+.navigation-auto div:not(:hover){
+   background: #fff;
+}
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-  background: #FFFFFF
+  background: #FF0000;
 }
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-        background: #FFFFFF
+        background: #FF0000;
 }
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-        background: #FFFFFF
+        background: #FF0000;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-        background: #FFFFFF
+        background: #FF0000;
 }
 #radio5:checked ~ .navigation-auto .auto-btn5 {
-        background: #FFFFFF
+        background: #FF0000;
 }
 
 
