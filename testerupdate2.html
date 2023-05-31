@@ -1,503 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+          
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JKT48 Web Fans</title>
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="slide.css">
-  <link rel="shorcut icon" href="jkt48_newera_logo.jpg">
 
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  
+  <title>Schedule - JKT48</title>
+  
+    <style>
+  
+   #loader { 
+            border: 10px solid #FF0C0C; 
+            border-radius: 50%; 
+            border-top: 10px solid #FFFFFF; 
+            width: 50px; 
+            height: 50px; 
+            animation: spin 1s linear infinite; 
+        } 
+         
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+         
+        .center { 
+            position: fixed;
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto; 
+        } 
+    </style> 
+  
 </head>
 
+<header>
+  <a href="mainmenu.html" class="btnbocil"><---</a>
+     <a class="logo"><img src="jkt48_newera_logo.jpg" alt="JKT48 New Era Logo" class="logo"></a>
+      <a><img src="newera-2-sp.png" alt="New Era" width="30" height="30"></a>
+      <div class="#" id="#"></div>
+      
+</header>
+<br>
+<br>
+<br>
+<br>
+
 <body>
-  <section class="header1" id="header">
-    <header>
-      <a class="logo"><img src="jkt48_newera_logo.jpg" alt="Jkt48_NewEra_Logo" class="logo"></a>
-      <a><img src="newera-2-sp.png" alt="New_Era_Text" style="width: 115px; height: 40px; margin-right: 110px; text-align: center;"></a>
-    </header>
-  </section>
-
-  <section class="bannernews" id="bannernews">
-    <div class="slider">
-      <div class="slides">
-
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-        <input type="radio" name="radio-btn" id="radio5">
-
-        <div class="slide first">
-          <a href="https://jkt48.com/rspecialshowpb?lang=id">
-            <img src="banner.home.rspecialshowpb-id.jpg" alt=""></a>
-        </div>
-        <div class="slide">
-          <a href="https://jkt48.com/valkyrie48?lang=id">
-            <img src="banner3.home.valkyrie48_2023.jpg" alt=""></a>
-        </div>
-        <div class="slide">
-          <a href="https://jkt48.com/fanclub?lang=id">
-            <img  src="banner4.fanclub2021-id.jpg" alt=""></a>
-        </div>
-        <div class="slide">
-          <a href="https://www.tokopedia.com/officialjkt48">
-            <img src="banner5.home.tokopedia.jpg" alt=""></a>
-        </div>
-
-        <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
-          <label for="radio5" class="manual-btn"></label>
-
-        </div>
-      </div>
-  </section>
   
+       <div id="loader" class="center"></div> 
+
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                "#loader").style.display = "none"; 
+                document.querySelector( 
+                "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
   
+  <section class="schedulejkt48" id="schedulejkt48">
+    <div class="centertext">
+      <h1>Schedule JKT48</h1>
+      <span>THEATER/EVENT/MEDIA</span>
+    </div>
+    <br>
+    <br>
+    <br>
 
- <section class="barlist">
-     <div class="listbarbg">
-    <h1 style="text-align: center; font-size: medium; font-weight: 700; color: red; font-family: bold; margin-top: 20px;">MENU BAR<br>(Tampilan Layar Saat ini belum responsive)</h1>
-       <div class="listbar">
-         <div class="boxlistbar">
-                 
-                 
-            <a href="anggotajkt.html"><img src="member_logo.jpg" alt=""></a>
+    
+  
+    <br>
+    <br>
+     <div class="sclist1">
 
+         <div class="boxsclist1">
+
+            <a href="#"><img src="icon.cat2_event.png" alt=""></a>
+         <h3>Pesta Bebas Berselancar</h3>
+         <span style="margin-left: -70px;">17 Juni 2023</span><br><br>
+         <span style="margin-left: -70px;">- Member</span>
                       
       </div>
+      <div class="boxsclist1">
 
-              <div class="boxlistbar">
-                    <a href="news.html">   <img src="berita_logo.jpg" alt=""></a>
-           
-      
-              </div>
-       
-                      <div class="boxlistbar">
-                              <a href="schedule.html"> <img src="jadwal_logo.jpg" alt=""></a>
-                        
-              
-                      </div>
+            <a href="https://jkt48.com/theater/schedule/id/2551?lang=id"><img src="icon.cat17_jkt48.png" alt=""></a>
+         <h3 style="margin-left: -50px;">Ingin Bertemu</h3>
+         <span style="margin-left: -30px;">16:00, 4 Juni 2023</span><br><br>
+         <span style="margin-left: -70px;">12 Member</span>
+                      
+      </div>
+       <div class="boxsclist1">
 
-        <div class="boxlistbar">
-                <a href="testerupdate.html"> <img src="logo_music.jpg" alt=""></a>
-      
+            <a href="https://jkt48.com/theater/schedule/id/2550?lang=id"><img src="poster.carameminumramune.jpg" alt=""></a>
+        <h3>Cara Meminum Ramune</h3>
+         <span style="margin-left: -37px;">19:00, 3 Juni 2023</span><br><br>
+         <span style="margin-left: -70px;">16 Member</span>
+                      
+      </div>
+      <div class="boxsclist1">
 
-        </div>
+            <a href="https://jkt48.com/theater/schedule/id/2548?lang=id"><img src="icon.cat17_jkt48.png" alt=""></a>
+       <h3 style="margin-left: -50px;">Ingin Bertemu</h3>
+         <span style="margin-left: -40px;">19:00, Juni 2023</span><br><br>
+         <span style="margin-left: -70px;">12 Member</span>
+                      
+      </div>
+       <div class="boxsclist1">
 
-                <div class="boxlistbar">
-                        <a href="live.room.html"> <img src="liveroom_logo.jpg" alt=""></a>
-                    
-        
-                </div>
-
-
-
-  
-              <div class="boxlistbar">
-                      <a href="#"> <img src="logo_donasi.jpg" alt=""></a>
-      
-                   
-           </div> 
+            <a href="https://jkt48.com/theater/schedule/id/2547?lang=id"><img src="poster.tunasdibalikseragam.jpg" alt=""></a>
+         <h3 style="margin-left: -20px;">Tunas Dibalik Seragam</h3>
+                  <span style="margin-left: -47px;">19:00, 1 Juni 2023</span><br><br>
+                  <span style="margin-left: -70px;">16 Member</span>
+                      
       </div>
       
-      <br>
-      <br>
-                     <h1 style="text-align: center; font-size: large; font-weight: 500; color: #FFFF; margin-top: -20px;">NEXT BIRTHDAY</h1>
-       <div class="birthday">
-               <div class="shop-container5">
-                       <div class="box5">
-                               <div class="box-img5">
-                                      <a href="cathleen_nixie.html"> <img src="cathleen_nixie.jpg" alt="Cathleen_Nixie">
-                               </div>
-      
-                               <span class="title">Trainee JKT48</span>
-                               <h2>28 Mei 2009</h2><br>
-                               <h1 style="font-size: small; color: white; font-weight: 700;">Cathleen Nixie</h1></a>
-                       </div>
-      
-                       <div class="box5">
-                               <div class="box-img5">
-                                    <a href="jeane_victoria.html"> <img src="jeane_victoria.jpg" alt="Jeane_Victoria">
-                               </div>
-                               <span class="title">Trainee JKT48</span>
-                               <h2>5 Juni 2006</h2><br>
-                               <h1 style="font-size: small; color: white; font-weight: 700;">Jeane Victoria</h1></a>
-                       </div>
-      
-                       <div class="box5">
-                               <div class="box-img5">
-                                      <a href="helisma_putri.html"> <img src="helisma_putri.jpg" alt="Helisma_Putri">
-                               </div>
-                               <span class="title">Anggota JKT48</span>
-                               <h2>15 Juni 2000</h2><br>
-                               <h1 style="font-size: small; color: white; font-weight: 700;">Helisma Putri</h1></a>
-                       </div>
-               </div>
-       </div>
-       <br>
-       <br>
-       
-       
-         <h1 style="font-sx-large; font-weight: 600; margin-left: 20px;">JKT48 Merchandise </h1><span style="margin-left: 20px;">Official merchandise from JKT48</span>
-         
-         
-         <div class="mclist">
-                 <div class="boxlistmc">
-                         <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-birthday-t-shirt-marsha-lenathea-2023-xl?extParam=whid%3D4003898"><img src="tshirt.marsha.birthdaymc.jkt48.jpg" alt=""></a>
-                         <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-                         <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Birthday</h3><br>
-                         <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 195.000</h2>
-         
-                 </div>
-         
-                 <div class="boxlistmc">
-                         <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-birthday-t-shirt-feni-fitriyanti-2023-4xl?extParam=whid%3D4003898"> <img src="tshirt.feni.birthdaymc.jkt48.jpg" alt=""></a>
-                         <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-                         <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Birthday</h3><br>
-                         <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 210.000</h2>
-         
-                 </div>
-         
-                 <div class="boxlistmc">
-                         <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-birthday-t-shirt-flora-shafiq-2023-xxl?extParam=whid%3D4003898"> <img src="tshirt.flora.birthdaymc.jkt48.png" alt=""></a>
-<h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-                         <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Birthday</h3><br>
-                         <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 195.000</h2>
-         
-                 </div>
-                                  <div class="boxlistmc">
-                         <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-cara-meminum-ramune-bundle-pack-lulu-salsabila?extParam=whid%3D4003898"> <img src="tshirt.lulu.carameminumramune.bundle.jkt48.jpg" alt=""></a>
-<h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-                         <h3 style="margin-left: -50px; font-size: medium; font-weight: 450;">JKT48 Cara</h3><br>
-                         <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-         
-                 </div>
-               <div class="boxlistmc">
-                     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-cara-meminum-ramune-bundle-pack-marsha-lenathea?extParam=whid%3D4003898"> <img src="tshirt.marsha.carameminumramune.bundle.jkt48.jpg" alt=""></a>
-                                          <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-                                          <h3 style="margin-left: -50px; font-size: medium; font-weight: 450;">JKT48 Cara</h3><br>
-                                          <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-                 
-                                  </div>
-                                  
-<div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-birthday-t-shirt-azizi-asadel-2023-s-00d9f?extParam=whid%3D4003898"> <img src="tshirt.aziziasadel.birthdaymc.jkt48.png" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Birthday</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 195.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-valkyrie48-official-jersey-2022-putih-dengan-nama"> <img src="jersey.valkyrie48.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -8px; font-size: medium; font-weight: 450;">JKT48 Valkyrie48</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 350.000</h2>
-      </div>
-      
-    <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-birthday-t-shirt-angelina-christy-2022"> <img src="tshirt.christy.birthdaymc.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Birthday</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 195.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-batch-2-jkt48-2023-calendar-the-morning-call"> <img src="batch2.merchandise.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -10px; font-size: small; font-weight: 450;">(PRE-ORDER Batch 2)</h3>
-       <h3 style="margin-left: -90px; font-size: medium; font-weight: 450;">JKT48</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 180.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-limited-t-shirt-setlist-cara-meminum-ramune"> <img src="tshirt.setlist.limited.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Limited</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 195.000</h2>
-      </div>
-         
-         <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-birthday-t-shirt-febriola-sinambela-2023"> <img src="tshirt.febriola.birthdaymc.jkt48.png" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Birthday</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 195.000</h2>
-      </div>
-      
-<div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-cara-meminum-ramune-bundle-pack-mutiara-azzahra?extParam=whid%3D4003898"> <img src="tshirt.muthe.carameminumramune.bundle.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -50px; font-size: medium; font-weight: 450;">JKT48 Cara</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-cara-meminum-ramune-bundle-pack-reva-fidela?extParam=whid%3D4003898"> <img src="tshirt.adel.carameminumramune.bundle.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -50px; font-size: medium; font-weight: 450;">JKT48 Cara</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-cara-meminum-ramune-bundle-pack-shani-indira-natio?extParam=whid%3D4003898"> <img src="tshirt.shani.carameminumramune.bundle.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -50px; font-size: medium; font-weight: 450;">JKT48 Cara</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-      </div>
-      
-       <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-cara-meminum-ramune-bundle-pack-shania-gracia?extParam=whid%3D4003898"> <img src="tshirt.gracia.carameminumramune.bundle.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -50px; font-size: medium; font-weight: 450;">JKT48 Cara</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-cara-meminum-ramune-bundle-pack-yessica-tamara?extParam=whid%3D4003898"> <img src="tshirt.yessica.carameminumramune.bundle.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -50px; font-size: medium; font-weight: 450;">JKT48 Cara</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-birthday-t-shirt-jesslyn-callista-2023-s-e8d69?extParam=whid%3D4003898"> <img src="tshirt.jesslyn.birthdaymc.jkt48.png" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Birthday</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 195.000</h2>
-      </div>
-      
-       <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-limited-t-shirt-setlist-cara-meminum-ramune-putih-s-bf047?extParam=whid%3D4003898"> <img src="tshirt.setlist.limited.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-       <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Limited</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 195.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/handkerchief-galaxy-jkt48-11th-anniversary-concert?extParam=whid%3D4003898"> <img src="handkerchief.galaxy.merchandise.jkt48.jpg" alt=""></a>
-       <h3 style="margin-left: -41px; font-size: medium; font-weight: 450;">Handkerchief</h3>
-       <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">Galaxy - JKT48</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-      </div>
-      
-       <div class="boxlistmc">
-       <a href="https://www.tokopedia.com/officialjkt48/pre-order-jkt48-birthday-t-shirt-flora-shafiq-2023-xxl?extParam=whid%3D4003898"> <img src="tshirt.flora.birthdaymc.jkt48.png" alt=""></a>
-<h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">(Pre-Order)</h3>
-                         <h3 style="margin-left: -30px; font-size: medium; font-weight: 450;">JKT48 Birthday</h3><br>
-                         <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 195.000</h2>
-         
-                 </div>
-                 
-                 <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/jkt48-10th-anniversary-hoodie-black-m?extParam=whid%3D4003898"> <img src="hoodieblack.jkt48.10th_anniversary.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">JKT48 10th</h3>
-       <h3 style="margin-left: -51px; font-size: medium; font-weight: 450;">Anniversary</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 300.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/t-shirt-jkt48-10th-anniversary-concert-heaven-m?extParam=whid%3D4003898"> <img src="tshirt.jkt48.10th.jpg" alt=""></a>
-       <h3 style="margin-left: -90px; font-size: medium; font-weight: 450;">T-Shirt</h3>
-       <h3 style="margin-left: -60px; font-size: medium; font-weight: 450;">JKT48 10th</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/uchiwa-jkt48-10th-anniversary-concert?extParam=whid%3D4003898"> <img src="uchiwa.merchandise.jkt48.10th_anniversary.jpg" alt=""></a>
-       <h3 style="margin-left: -90px; font-size: medium; font-weight: 450;">Uchiwa</h3>
-       <h3 style="margin-left: -60px; font-size: medium; font-weight: 450;">JKT48 10th</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 30.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/rubber-band-jkt48-10th-anniversary-concert-biru?extParam=whid%3D4003898"> <img src="rubberband.merchandise.jkt48.10th_anniversary.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">Rubber Band</h3>
-       <h3 style="margin-left: -60px; font-size: medium; font-weight: 450;">JKT48 10th</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 20.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/enamel-pin-jkt48th-anniversary-concert-artemis?extParam=whid%3D4003898"> <img src="enamel.pin.jkt48th.jpg" alt=""></a>
-       <h3 style="margin-left: -55px; font-size: medium; font-weight: 450;">Enamel Pin</h3>
-       <h3 style="margin-left: -75px; font-size: medium; font-weight: 450;">JKT48th</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 60.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/lightstick-jkt48-newera?extParam=whid%3D4003898"> <img src="lightstick.jkt48.newera.jpg" alt=""></a>
-       <h3 style="margin-left: -20px; font-size: medium; font-weight: 450;">Lightstick JKT48</h3>
-       <h3 style="margin-left: -85px; font-size: medium; font-weight: 450;">Newera</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 280.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/jkt48-11th-anniversary-t-shirt-eleven-a-m?extParam=whid%3D4003898"> <img src="tshirt.jkt48.11th_anniversary.jpg" alt=""></a>
-       <h3 style="margin-left: -95px; font-size: medium; font-weight: 450;">T-Shirt</h3>
-       <h3 style="margin-left: -60px; font-size: medium; font-weight: 450;">JKT48 11th</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-      </div>
-      
-      <div class="boxlistmc">
-     <a href="https://www.tokopedia.com/officialjkt48/uchiwa-jkt48-11th-anniversary-concert?extParam=whid%3D4003898"> <img src="uchiwajkt48.11th_anniversary.jpg" alt=""></a>
-       <h3 style="margin-left: -44px; font-size: medium; font-weight: 450;">Uchiwa JKT48</h3>
-       <h3 style="margin-left: -25px; font-size: medium; font-weight: 450;">11th Anniversary</h3><br>
-       <h2 style="margin-left: -50px; font-size: medium; font-weight: 600;">Rp 250.000</h2>
-      </div>
-         
-         
      </div>
- </section> 
- 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     <div class="sclist2">
 
-  <hr>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br><br><br><br>
+         <div class="boxsclist2">
 
-  <section class="videovlog" id="videovlog">
-    <div class="centertext">
-      <span>LIST</span>
-      <h1>JKT48 TV</h1>
-    </div>
-  </section>
-
-  <section class="jkt48tvvideo" id="jkt48tvvideo">
-    <div class="slider2">
-      <div class="slides2">
-
-        <input type="radio" name="radio-btn2" id="radio1rek">
-        <input type="radio" name="radio-btn2" id="radio2rek">
-        <input type="radio" name="radio-btn2" id="radio3rek">
-        <input type="radio" name="radio-btn2" id="radio4rek">
-        <input type="radio" name="radio-btn2" id="radio5rek">
-        <input type="radio" name="radio-btn2" id="radio6rek">
-        <input type="radio" name="radio-btn2" id="radio7rek">
-        <input type="radio" name="radio-btn2" id="radio8rek">
-        <input type="radio" name="radio-btn2" id="radio9rek">
-        <input type="radio" name="radio-btn2" id="radio10rek">
-
-
-        <div class="sliderek firstrek">
-                
-          <h5>FREYA - APA INI KEBIASAAN FREYA?</h5>
-          <iframe src="https://www.youtube.com/embed/H0I1nwKQPlE?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 25 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-        
-        <div class="sliderek">
-                        <h5>SISCA - MALU BANGET DILIATIN BANYAK ORANG!</h5>
-                        <iframe src="https://www.youtube.com/embed/eWCXwQH11Gg" frameborder="0" allowfullscreen></iframe>
-                        <span>Di Publish Pada Tanggal: 25 Mei 2023</span><br>
-                        <span>Sumber Video: JKT48TV (YouTube)</span>
-                        </div>
-                
-                <div class="sliderek">
-               <h5>BIKIN SEBLAK COET ALA AA RAFAEL! YUMMM🤤</h5>
-                   <span></span>
-                   <iframe src="https://www.youtube.com/embed/8SL9c6mIj3A?HD=1" frameborder="0" allowfullscreen></iframe><br>
-                   <span>Di Publish Pada Tanggal: 23 Mei 2023</span><br>
-                   <span>Sumber Video: JKT48TV (YouTube)</span>
-           
-           </div>     
-        
-        <div class="sliderek">
-          <h5>FLORA - ISINYA YANG GEMES-GEMES!</h5>
-          <iframe src="https://www.youtube.com/embed/Q5_rsX7tSbA?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 22 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-        <div class="sliderek">
-          <h5>KATANYA WARNET TAPI KOK BISA BALAPAN?!</h5>
-          <iframe src="https://www.youtube.com/embed/YcFEQ33eOFE?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 19 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-          <div class="sliderek">
-          <h5>FENI - FENI YANG DULU BUKANLAH YANG SEKARANG</h5>
-          <iframe src="https://www.youtube.com/embed/XSdIIxNzjUg?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 19 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-        <div class="sliderek">
-          <h5>PERSONAL MEET & GREET</h5>
-          <iframe src="https://www.youtube.com/embed/Kr5JRMU2Wis?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 16 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-        <div class="sliderek">
-          <h5>ZEE - AZIZI ANAK BAWANG?!</h5>
-          <iframe src="https://www.youtube.com/embed/1_KTmH-azeo?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 15 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-        <div class="sliderek">
-          <h5>OLLA - GIMANA KALAU PERTANYAANNYA DIBALIK?</h5>
-          <iframe src="https://www.youtube.com/embed/0QvUki4NUPw?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 11 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-          <div class="sliderek">
-         <h5>ONIEL - PARAH BANGET! BERCANDAIN MANAGEMENT!</h5>
-          <iframe src="https://www.youtube.com/embed/1EwgiUG3yTo?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 9 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div> 
-
-        <div class="sliderek">
-          <h5>ASHEL - TERTUDUH STAFF & MEMBER JKT48</h5>
-          <iframe src="https://www.youtube.com/embed/VjEPcsm95dI?HD=1" frameborder="0" allowfullscreen></iframe>
-          <span>Di Publish Pada Tanggal: 8 Mei 2023</span><br>
-          <span>Sumber Video: JKT48TV (YouTube)</span>
-        </div>
-
-        <div class="navigation-manual2">
-          <label for="radio1rek" class="manual-btn2"></label>
-          <label for="radio2rek" class="manual-btn2"></label>
-          <label for="radio3rek" class="manual-btn2"></label>
-          <label for="radio4rek" class="manual-btn2"></label>
-          <label for="radio5rek" class="manual-btn2"></label>
-          <label for="radio6rek" class="manual-btn2"></label>
-          <label for="radio7rek" class="manual-btn2"></label>
-          <label for="radio8rek" class="manual-btn2"></label>
-          <label for="radio9rek" class="manual-btn2"></label>
-          <label for="radio10rek" class="manual-btn2"></label>
-        </div>
+            <a href="#"><img src="icon.cat2_event.png" alt=""></a>
+         <h3 style="margin-left: -30px;">Marvellous Festival</h3>
+           <span style="margin-left: -70px;">10 Juni 2023</span><br><br>
+           <span style="margin-left: -70px;">- Member</span>
+                      
       </div>
-  </section>
+      <div class="boxsclist2">
 
+            <a href="#"><img src="poster.tunasdibalikseragam.jpg" alt=""></a>
+         <h3>Mukashi vol.2 - Summer...</h3>
+           <span style="margin-left: -70px;">4 Juni 2023</span><br><br>
+           <span style="margin-left: -70px;">- Member</span>
+                      
+      </div>
+       <div class="boxsclist2">
+
+            <a href="https://jkt48.com/theater/schedule/id/2549?lang=id"><img src="poster.aturananticinta.jpg" alt=""></a>
+         <h3 style="margin-left: -40px;">Aturan Anti Cinta</h3>
+         <span style="margin-left: -37px;">14:00, 3 Juni 2023</span><br><br>
+         <span style="margin-left: -70px;">16 Member</span>
+                      
+      </div>
+      <div class="boxsclist2">
+
+            <a href="#"><img src="icon.cat2_event.png" alt=""></a>
+         <h3>FIFGROUP 34th Localici...</h3>
+                  <span style="margin-left: -70px;">2 Juni 2023</span><br><br>
+         <span style="margin-left: -70px;">- Member</span>
+                      
+      </div>
+       <div class="boxsclist2">
+
+            <a href="https://jkt48.com/theater/schedule/id/2546?lang=id"><img src="poster.jkt48.jpg" alt=""></a>
+       <h3 style="margin-left: -50px;">Ingin Bertemu</h3>
+         <span style="margin-left: -25px;">14:00, 28 Mei 2023</span><br><br>
+         <span style="margin-left: -70px;">12 Member</span>
+                      
+      </div>
+     </div>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <br>
     <br>
     <hr>
     <br>
+    <br>
 
-
-    <section class="contact" id="contact">
-      <div class="social">
-        <p>Contact Us</p> <br>
-        <a href=""><i class='bx bxl-facebook'></i></a>
-        <a href=""><i class='bx bxl-instagram'></i></a>
-        <a href=""><i class='bx bxl-twitter'></i></a>
-        <a href=""><i class='bx bxl-youtube'></i></a>
-      </div>
-      <br>
-      <p>@2023 Januar Adhi N</p>
-      <p>Copyright ©2023 JKT48 Operation Team<br>(PT. Indonesia Musik Nusantara)</p>
-      <p>All Rights Reserved </p>
+   <br>
+    
+    <div class="centertext">
+      <h2>COMING SOON</h2>
+    </div>
+    
+  
+  </section>
+  
+  
+       <br>
+       <hr>
+       <br>
+      
     </section>
-    <script src="main.js"></script>
+  
 
 </body>
+
 </html>
