@@ -901,7 +901,7 @@ li.dropdown {
 }
 @media (max-width: 480px) {
   listbarbg {
-    width: 380px;
+    width: 500px;
   }
   barlist{
     width: 500px;
