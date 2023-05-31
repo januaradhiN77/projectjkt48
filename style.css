@@ -911,7 +911,7 @@ li.dropdown {
 }
 @media (min-width: 768px) {
   .listbarbg {
-    width: 420px;
+    width: 360px;
     height: 700px;
   }
   .barlist{
