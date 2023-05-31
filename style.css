@@ -899,23 +899,3 @@ li.dropdown {
         width: 1000px;
         height: 2000px;
 }
-@media (max-width: 768px) {
-  .listbarbg {
-    width: 395px;
-    height: 700px;
-  }
-  .barlist{
-    width: 395px;
-  }
-
-}
-@media (min-width: 768px) {
-  .listbarbg {
-    width: 360px;
-    height: 700px;
-  }
-  .barlist{
-    width: 420px;
-  }
-
-}
