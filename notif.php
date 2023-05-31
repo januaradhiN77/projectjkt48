@@ -18,7 +18,7 @@ if (isset($_POST['kirim'])) {
 }
 function sendMessage($app, $isi, $url) {
     $content      = array(
-        "en" => $isi
+        "en" => $Isi
     );
     $heading = array(
         "en" => 'Mengidol48'
