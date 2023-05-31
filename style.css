@@ -899,3 +899,9 @@ li.dropdown {
         width: 1000px;
         height: 2000px;
 }
+@media (max-width: 480px) {
+  listbarbg {
+    width: 380px;
+  }
+
+}
