@@ -329,6 +329,7 @@ li.dropdown {
 .shop-container3 .box2{
   padding: 5px;
   display: flex;
+  margin-left: 7px;
   text-align: center;
   flex-direction: column;
   align-items: center;
