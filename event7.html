@@ -1,14 +1,103 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
+
+        
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="jam.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  
+  <title>Event - JKT48</title>
+  
+    <style>
+  
+   #loader { 
+            border: 10px solid #FF0C0C; 
+            border-radius: 50%; 
+            border-top: 10px solid #FFFFFF; 
+            width: 50px; 
+            height: 50px; 
+            animation: spin 1s linear infinite; 
+        } 
+         
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+         
+        .center { 
+            position: fixed;
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto; 
+        } 
+    </style> 
+  
 </head>
 
+<header>
+  <a href="schedule.html" class="btnbocil"><---</a>
+    <h1 style="margin-right: 200px; font-weight: 600;"> 
+    Event</h1>
+      
+</header>
+<br>
+<br>
+<br>
+
 <body>
+        
+             <div id="loader" class="center"></div> 
 
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                "#loader").style.display = "none"; 
+                document.querySelector( 
+                "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
+    
+        
+         <div class="centertext">
+             <img src="banner_banzai_jkt48.jpg" style="width: 395px;"><br><br>
+             <img src="icon.cat17_jkt48.png" style="width: 60px; margin-left: -300px;"><br>
+         </div>
+         <div class="centertextbeda">
+             <h2 style="font-size: large; color: red; margin-left: -265px; font-weight: 500;">BANZAI JKT48</h2>
+             <span style="margin-left: -210px;">19:00, Jumat 9 Juni 2023</span><br><br>
+             
+             <a href="https://jkt48.com/theater/schedule/id/2553?lang=id" class="btnsedang">Tiket dan Informasi lebih lanjut</a><br><br> 
+
+             <br>
+             <br><br>
+      <br>
+      <hr>
+        
+    <br>
+  </section>
+    
+  
+      
+   
+       <br>
+      
+    </section>
 </body>
-
 </html>
