@@ -614,6 +614,11 @@ li.dropdown {
 }
 .contentlist{
   margin: 0 0px 0 0px;
+  background: #FFFFFF;
+}
+.bgan{
+  background: #FF0000;
+  height: 300px;
 }
 .contentlist h1{
   font-size: medium;
